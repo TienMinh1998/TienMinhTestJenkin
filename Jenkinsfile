@@ -1,8 +1,8 @@
 pipeline{
     agent any
     stages{
-        stage('Clone'){
-            steps{
+        stage ('Clone'){
+            steps {
                 git 'https://github.com/TienMinh1998/TienMinhTestJenkin.git'
             }
         }
